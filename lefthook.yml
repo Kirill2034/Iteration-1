@@ -1,0 +1,11 @@
+pre-commit:
+  parallel: true
+  commands:
+    prettier:
+      files: git diff —name-only @{push}
+      glob: "*.{js}"
+      run: ./node_modules/.bin/prettier —write {files}
+    linter:
+      files: git diff —name-only @{push}
+      glob: "*.{js}"
+      run: ./node_modules/.bin/eslint —max-warnings=0 {files}
