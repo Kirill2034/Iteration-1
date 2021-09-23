@@ -1,20 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.bab0b925.chunk.css",
-    "main.js": "/static/js/main.bff63d5f.chunk.js",
-    "main.js.map": "/static/js/main.bff63d5f.chunk.js.map",
+    "main.css": "/static/css/main.e0f38ff5.chunk.css",
+    "main.js": "/static/js/main.127798d5.chunk.js",
+    "main.js.map": "/static/js/main.127798d5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ffb77902.js",
     "runtime-main.js.map": "/static/js/runtime-main.ffb77902.js.map",
-    "static/js/2.c7479394.chunk.js": "/static/js/2.c7479394.chunk.js",
-    "static/js/2.c7479394.chunk.js.map": "/static/js/2.c7479394.chunk.js.map",
+    "static/css/2.4ce9e501.chunk.css": "/static/css/2.4ce9e501.chunk.css",
+    "static/js/2.a5b69a36.chunk.js": "/static/js/2.a5b69a36.chunk.js",
+    "static/js/2.a5b69a36.chunk.js.map": "/static/js/2.a5b69a36.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.bab0b925.chunk.css.map": "/static/css/main.bab0b925.chunk.css.map",
-    "static/js/2.c7479394.chunk.js.LICENSE.txt": "/static/js/2.c7479394.chunk.js.LICENSE.txt"
+    "static/css/2.4ce9e501.chunk.css.map": "/static/css/2.4ce9e501.chunk.css.map",
+    "static/css/main.e0f38ff5.chunk.css.map": "/static/css/main.e0f38ff5.chunk.css.map",
+    "static/js/2.a5b69a36.chunk.js.LICENSE.txt": "/static/js/2.a5b69a36.chunk.js.LICENSE.txt",
+    "static/media/Facebook_white.103f9404.svg": "/static/media/Facebook_white.103f9404.svg",
+    "static/media/Instagram_white.69b05848.svg": "/static/media/Instagram_white.69b05848.svg",
+    "static/media/Telegram_white.385e100c.svg": "/static/media/Telegram_white.385e100c.svg",
+    "static/media/location.dd9d4bed.svg": "/static/media/location.dd9d4bed.svg",
+    "static/media/menu-btn.58d5b3cf.svg": "/static/media/menu-btn.58d5b3cf.svg",
+    "static/media/menu-close.2990540f.svg": "/static/media/menu-close.2990540f.svg",
+    "static/media/sliderInsurance.ea68d8b3.png": "/static/media/sliderInsurance.ea68d8b3.png",
+    "static/media/sliderParking.9369f2aa.png": "/static/media/sliderParking.9369f2aa.png",
+    "static/media/sliderPetrol.4e22dc96.png": "/static/media/sliderPetrol.4e22dc96.png",
+    "static/media/sliderService.be695f13.png": "/static/media/sliderService.be695f13.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ffb77902.js",
-    "static/js/2.c7479394.chunk.js",
-    "static/css/main.bab0b925.chunk.css",
-    "static/js/main.bff63d5f.chunk.js"
+    "static/css/2.4ce9e501.chunk.css",
+    "static/js/2.a5b69a36.chunk.js",
+    "static/css/main.e0f38ff5.chunk.css",
+    "static/js/main.127798d5.chunk.js"
   ]
 }
