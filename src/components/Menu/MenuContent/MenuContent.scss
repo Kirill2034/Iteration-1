@@ -1,0 +1,83 @@
+@import "../../../styles/shared.scss";
+
+.menu-content {
+  position: absolute;
+  left: 64px;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 3;
+  display: flex;
+  &__info {
+    flex: 1;
+    background: #151b1f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &-links {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-left: 64px;
+      & span {
+        text-transform: uppercase;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 37px;
+        color: #ffffff;
+        cursor: pointer;
+        margin-bottom: 30px;
+      }
+      & span:hover {
+        color: $primary;
+      }
+    }
+    &-icons {
+      display: flex;
+      margin-left: 64px;
+      &-item {
+        margin-right: 24px;
+        & svg {
+          fill: white;
+        }
+        & svg:hover {
+          cursor: pointer;
+          fill: $primary;
+        }
+      }
+    }
+  }
+  &__opacity {
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+}
+
+@media screen and (max-width: $desktop-min) {
+  .menu-content {
+    left: 0;
+    background-color: #151b1f;
+    &__opacity {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .menu-content {
+    &__info {
+      padding-top: 80px;
+      justify-content: flex-start;
+      &-links {
+        & span {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 22px;
+          line-height: 26px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,170 @@
+@import "../../../styles/shared.scss";
+
+.home-content {
+  padding: 32px 64px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-logo {
+      color: $primary;
+
+      font-style: normal;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 35px;
+    }
+    &-city {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 16px;
+      color: $primary-dark;
+    }
+    &-city p {
+      margin-left: 10px;
+    }
+  }
+
+  &__main {
+    &-title {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 70px;
+      line-height: 66px;
+      color: $primary-black;
+      margin-bottom: 4px;
+    }
+    &-subtitle {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 70px;
+      line-height: 66px;
+      color: $primary;
+      margin-bottom: 34px;
+    }
+    &-description {
+      font-style: normal;
+      font-weight: 300;
+      font-size: 26px;
+      line-height: 30px;
+      color: $primary-dark;
+      margin-bottom: 60px;
+    }
+    &-button {
+      max-width: 250px;
+    }
+  }
+
+  &__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-company {
+      font-style: normal;
+      font-weight: normal;
+
+      font-size: 13px;
+      line-height: 15px;
+      color: $primary-dark;
+    }
+    &-phone {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 15px;
+      color: $primary-black;
+    }
+  }
+}
+
+@media screen and (max-width: $tablet) {
+  .home-content {
+    padding: 0;
+
+    &__header {
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+
+      &-logo {
+        margin-bottom: 9px;
+      }
+    }
+
+    &__main {
+      &-title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 100%;
+        color: #121212;
+        margin-bottom: 6px;
+        padding: 0 16px;
+      }
+
+      &-subtitle {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 100%;
+        color: #0ec261;
+        margin-bottom: 16px;
+        padding: 0 16px;
+      }
+
+      &-description {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        color: #999999;
+        margin-bottom: 32px;
+        padding: 0 16px;
+      }
+
+      &-button {
+        max-width: 100%;
+        & button {
+          border-radius: 0;
+        }
+      }
+    }
+
+    &__footer {
+      padding: 16px;
+      background: #151b1f;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: flex-end;
+      margin-top: auto;
+
+      &-company {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 15px;
+        color: $primary-dark;
+      }
+
+      &-phone {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 15px;
+        color: $primary;
+      }
+    }
+  }
+}
