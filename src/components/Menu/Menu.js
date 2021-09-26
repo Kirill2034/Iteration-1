@@ -6,7 +6,7 @@ import { ReactComponent as MenuCloseIcon } from "../../assets/icons/menu-close.s
 import { MenuContent } from "./MenuContent";
 import classNames from "classnames";
 
-function Menu() {
+const Menu = () => {
   const [menuOpened, setMenuOpened] = useState(false);
   function onMenuButtonClick() {
     setMenuOpened(!menuOpened);
@@ -29,5 +29,5 @@ function Menu() {
       )}
     </>
   );
-}
+};
 export default Menu;

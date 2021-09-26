@@ -36,16 +36,14 @@ const contentInSlider = [
   },
 ];
 
-function SimpleSlider() {
-  return (
-    <div className="simple-slider">
-      <Carousel showThumbs={false} showStatus={false} infiniteLoop={true}>
-        {contentInSlider.map((item, index) => {
-          return <Slide key={index} item={item} />;
-        })}
-      </Carousel>
-    </div>
-  );
-}
+const SimpleSlider = () => (
+  <div className="simple-slider">
+    <Carousel showThumbs={false} showStatus={false} infiniteLoop={true}>
+      {contentInSlider.map((item, index) => {
+        return <Slide key={index} item={item} />;
+      })}
+    </Carousel>
+  </div>
+);
 
 export default SimpleSlider;
