@@ -8,7 +8,7 @@ import classNames from "classnames";
 
 const Menu = () => {
   const [menuOpened, setMenuOpened] = useState(false);
-  function onMenuButtonClick() {
+  const onMenuButtonClick = () => {
     setMenuOpened(!menuOpened);
   }
 
