@@ -1,0 +1,67 @@
+.button {
+  width: 100%;
+  font-weight: 600;
+  background: linear-gradient(90deg, #0ec261 2.61%, #039f67 112.6%);
+  background-blend-mode: darken;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 40px;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  &:hover {
+    background: linear-gradient(
+      90deg,
+      darken(#0ec261, 10%) 2.61%,
+      darken(#039f67, 10%) 112.6%
+    );
+  }
+  &.success {
+    background: linear-gradient(90deg, #13493f 0%, #0c7b1b 100%);
+    border-radius: 4px;
+    &:hover {
+      background: linear-gradient(
+        90deg,
+        darken(#13493f, 10%) 2.61%,
+        darken(#0c7b1b, 10%) 112.6%
+      );
+    }
+  }
+  &.info {
+    background: linear-gradient(90deg, #132949 0%, #0c7b67 100%);
+    border-radius: 4px;
+    &:hover {
+      background: linear-gradient(
+        90deg,
+        darken(#132949, 10%) 2.61%,
+        darken(#0c7b67, 10%) 112.6%
+      );
+    }
+  }
+  &.danger {
+    background: linear-gradient(90deg, #493013 0%, #7b0c3b 100%);
+    border-radius: 4px;
+    &:hover {
+      background: linear-gradient(
+        90deg,
+        darken(#493013, 10%) 2.61%,
+        darken(#7b0c3b, 10%) 112.6%
+      );
+    }
+  }
+  &.purple {
+    background: linear-gradient(90deg, #281349 0%, #720c7b 100%);
+    border-radius: 4px;
+    &:hover {
+      background: linear-gradient(
+        90deg,
+        darken(#281349, 10%) 2.61%,
+        darken(#720c7b, 10%) 112.6%
+      );
+    }
+  }
+}
