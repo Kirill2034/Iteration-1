@@ -3,7 +3,7 @@ pre-commit:
   commands:
     prettier:
       files: git diff —name-only @{push}
-      glob: "*.{js}"
+      glob: "*.{js,scss}"
       run: ./node_modules/.bin/prettier —write {files}
     linter:
       files: git diff —name-only @{push}

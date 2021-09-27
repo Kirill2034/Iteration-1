@@ -1,0 +1,54 @@
+@import "../../styles/shared.scss";
+
+.menu {
+  width: 64px;
+  background-color: #151b1f;
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  z-index: 10;
+  &__btn {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-top: 32px;
+    color: white;
+  }
+  &__language {
+    color: $primary;
+    margin-bottom: 32px;
+    &._opened {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: $tablet) {
+  .menu {
+    width: auto;
+    background-color: transparent;
+    position: absolute;
+    left: 16px;
+    top: 16px;
+    bottom: 0;
+    &__btn {
+      color: $primary-black;
+      margin-top: 0;
+    }
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .menu {
+    &__language {
+      display: none;
+      &._opened {
+        display: block;
+      }
+    }
+  }
+}

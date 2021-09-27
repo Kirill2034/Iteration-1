@@ -1,0 +1,16 @@
+@import "reset-css/sass/reset";
+@import "./styles/fonts.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto-Black", sans-serif;
+}
