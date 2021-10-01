@@ -1,0 +1,37 @@
+@import "../../styles/shared.scss";
+
+.breadcrumbs {
+  width: 100%;
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  & li {
+    margin: 0;
+    padding: 0;
+
+    & .breadcrumbs__link {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 16px;
+      color: #999999;
+
+      &.active {
+        color: #0ec261;
+      }
+    }
+  }
+
+  &__triangle-icon {
+    width: 50px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media screen and (max-width: $tablet) {
+  .breadcrumbs {
+    flex-direction: column;
+  }
+}

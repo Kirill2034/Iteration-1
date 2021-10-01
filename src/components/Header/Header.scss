@@ -1,0 +1,46 @@
+@import "../../styles/shared.scss";
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__logo {
+    color: $primary;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+
+    & a {
+      color: $primary;
+    }
+  }
+  &__city {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: $primary-dark;
+  }
+  &__city p {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: $tablet) {
+  .header {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    &__logo {
+      margin-bottom: 9px;
+    }
+  }
+}

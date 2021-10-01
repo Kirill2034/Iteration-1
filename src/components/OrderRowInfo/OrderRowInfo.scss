@@ -1,0 +1,47 @@
+@import "../../styles/shared.scss";
+
+.order-row-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 32px;
+
+  & p:first-child {
+    white-space: nowrap;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #121212;
+  }
+
+  & p:last-child {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #999999;
+  }
+
+  &__separator {
+    background-image: linear-gradient(
+      to right,
+      #999 35%,
+      rgba(255, 255, 255, 0) 0%
+    );
+    background-position: bottom;
+    background-size: 4px 1px;
+    background-repeat: repeat-x;
+    height: 1px;
+    padding: 0 12px;
+    margin-bottom: 3px;
+  }
+}
+
+@media screen and (max-width: $tablet) {
+  .order-row-info {
+    margin-bottom: 16px;
+
+    & p {
+      white-space: nowrap;
+    }
+  }
+}
