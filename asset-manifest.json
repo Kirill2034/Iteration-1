@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "./static/css/main.c19d3537.chunk.css",
-    "main.js": "./static/js/main.5ac44ece.chunk.js",
-    "main.js.map": "./static/js/main.5ac44ece.chunk.js.map",
+    "main.css": "./static/css/main.eedd7afb.chunk.css",
+    "main.js": "./static/js/main.a6f274a3.chunk.js",
+    "main.js.map": "./static/js/main.a6f274a3.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.ae2f012a.js",
     "runtime-main.js.map": "./static/js/runtime-main.ae2f012a.js.map",
     "static/css/2.4ce9e501.chunk.css": "./static/css/2.4ce9e501.chunk.css",
-    "static/js/2.41a0e722.chunk.js": "./static/js/2.41a0e722.chunk.js",
-    "static/js/2.41a0e722.chunk.js.map": "./static/js/2.41a0e722.chunk.js.map",
+    "static/js/2.b3e67f09.chunk.js": "./static/js/2.b3e67f09.chunk.js",
+    "static/js/2.b3e67f09.chunk.js.map": "./static/js/2.b3e67f09.chunk.js.map",
     "index.html": "./index.html",
     "static/css/2.4ce9e501.chunk.css.map": "./static/css/2.4ce9e501.chunk.css.map",
-    "static/css/main.c19d3537.chunk.css.map": "./static/css/main.c19d3537.chunk.css.map",
-    "static/js/2.41a0e722.chunk.js.LICENSE.txt": "./static/js/2.41a0e722.chunk.js.LICENSE.txt",
+    "static/css/main.eedd7afb.chunk.css.map": "./static/css/main.eedd7afb.chunk.css.map",
+    "static/js/2.b3e67f09.chunk.js.LICENSE.txt": "./static/js/2.b3e67f09.chunk.js.LICENSE.txt",
     "static/media/Facebook_white.caf503e7.svg": "./static/media/Facebook_white.caf503e7.svg",
     "static/media/Instagram_white.f8a075a9.svg": "./static/media/Instagram_white.f8a075a9.svg",
     "static/media/Map.35531fdd.png": "./static/media/Map.35531fdd.png",
@@ -24,13 +24,13 @@
     "static/media/sliderParking.9369f2aa.png": "./static/media/sliderParking.9369f2aa.png",
     "static/media/sliderPetrol.4e22dc96.png": "./static/media/sliderPetrol.4e22dc96.png",
     "static/media/sliderService.be695f13.png": "./static/media/sliderService.be695f13.png",
-    "static/media/triangle.ce81e742.svg": "./static/media/triangle.ce81e742.svg"
+    "static/media/triangle.3f54b55d.svg": "./static/media/triangle.3f54b55d.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.ae2f012a.js",
     "static/css/2.4ce9e501.chunk.css",
-    "static/js/2.41a0e722.chunk.js",
-    "static/css/main.c19d3537.chunk.css",
-    "static/js/main.5ac44ece.chunk.js"
+    "static/js/2.b3e67f09.chunk.js",
+    "static/css/main.eedd7afb.chunk.css",
+    "static/js/main.a6f274a3.chunk.js"
   ]
 }
