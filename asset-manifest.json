@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.2296c9c5.chunk.css",
+    "main.css": "./static/css/main.fc87e25b.chunk.css",
     "main.js": "./static/js/main.e628096e.chunk.js",
     "main.js.map": "./static/js/main.e628096e.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.ae2f012a.js",
@@ -10,7 +10,7 @@
     "static/js/2.867f173b.chunk.js.map": "./static/js/2.867f173b.chunk.js.map",
     "index.html": "./index.html",
     "static/css/2.4ce9e501.chunk.css.map": "./static/css/2.4ce9e501.chunk.css.map",
-    "static/css/main.2296c9c5.chunk.css.map": "./static/css/main.2296c9c5.chunk.css.map",
+    "static/css/main.fc87e25b.chunk.css.map": "./static/css/main.fc87e25b.chunk.css.map",
     "static/js/2.867f173b.chunk.js.LICENSE.txt": "./static/js/2.867f173b.chunk.js.LICENSE.txt",
     "static/media/Facebook_white.caf503e7.svg": "./static/media/Facebook_white.caf503e7.svg",
     "static/media/Instagram_white.f8a075a9.svg": "./static/media/Instagram_white.f8a075a9.svg",
@@ -33,7 +33,7 @@
     "static/js/runtime-main.ae2f012a.js",
     "static/css/2.4ce9e501.chunk.css",
     "static/js/2.867f173b.chunk.js",
-    "static/css/main.2296c9c5.chunk.css",
+    "static/css/main.fc87e25b.chunk.css",
     "static/js/main.e628096e.chunk.js"
   ]
 }
