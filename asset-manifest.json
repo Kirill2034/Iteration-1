@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "./static/css/main.fc87e25b.chunk.css",
-    "main.js": "./static/js/main.e628096e.chunk.js",
-    "main.js.map": "./static/js/main.e628096e.chunk.js.map",
+    "main.css": "./static/css/main.ce247b93.chunk.css",
+    "main.js": "./static/js/main.8863c2fa.chunk.js",
+    "main.js.map": "./static/js/main.8863c2fa.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.ae2f012a.js",
     "runtime-main.js.map": "./static/js/runtime-main.ae2f012a.js.map",
     "static/css/2.4ce9e501.chunk.css": "./static/css/2.4ce9e501.chunk.css",
-    "static/js/2.867f173b.chunk.js": "./static/js/2.867f173b.chunk.js",
-    "static/js/2.867f173b.chunk.js.map": "./static/js/2.867f173b.chunk.js.map",
+    "static/js/2.ff3042bd.chunk.js": "./static/js/2.ff3042bd.chunk.js",
+    "static/js/2.ff3042bd.chunk.js.map": "./static/js/2.ff3042bd.chunk.js.map",
     "index.html": "./index.html",
     "static/css/2.4ce9e501.chunk.css.map": "./static/css/2.4ce9e501.chunk.css.map",
-    "static/css/main.fc87e25b.chunk.css.map": "./static/css/main.fc87e25b.chunk.css.map",
-    "static/js/2.867f173b.chunk.js.LICENSE.txt": "./static/js/2.867f173b.chunk.js.LICENSE.txt",
+    "static/css/main.ce247b93.chunk.css.map": "./static/css/main.ce247b93.chunk.css.map",
+    "static/js/2.ff3042bd.chunk.js.LICENSE.txt": "./static/js/2.ff3042bd.chunk.js.LICENSE.txt",
     "static/media/Facebook_white.caf503e7.svg": "./static/media/Facebook_white.caf503e7.svg",
     "static/media/Instagram_white.f8a075a9.svg": "./static/media/Instagram_white.f8a075a9.svg",
     "static/media/Map.35531fdd.png": "./static/media/Map.35531fdd.png",
@@ -21,7 +21,6 @@
     "static/media/car2.8e447acd.png": "./static/media/car2.8e447acd.png",
     "static/media/car3.4938ffbb.png": "./static/media/car3.4938ffbb.png",
     "static/media/car4.b3aa49f5.png": "./static/media/car4.b3aa49f5.png",
-    "static/media/location.480be180.svg": "./static/media/location.480be180.svg",
     "static/media/menu-btn.92a97b8f.svg": "./static/media/menu-btn.92a97b8f.svg",
     "static/media/menu-close.1d4598cc.svg": "./static/media/menu-close.1d4598cc.svg",
     "static/media/sliderInsurance.ea68d8b3.png": "./static/media/sliderInsurance.ea68d8b3.png",
@@ -32,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.ae2f012a.js",
     "static/css/2.4ce9e501.chunk.css",
-    "static/js/2.867f173b.chunk.js",
-    "static/css/main.fc87e25b.chunk.css",
-    "static/js/main.e628096e.chunk.js"
+    "static/js/2.ff3042bd.chunk.js",
+    "static/css/main.ce247b93.chunk.css",
+    "static/js/main.8863c2fa.chunk.js"
   ]
 }
