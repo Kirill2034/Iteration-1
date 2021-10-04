@@ -1,6 +1,5 @@
 import React from "react";
 import "./Header.scss";
-import { ReactComponent as LocationIcon } from "../../assets/icons/location.svg";
 import { NavLink } from "react-router-dom";
 
 const Header = () => (
@@ -11,8 +10,6 @@ const Header = () => (
       </p>
     </div>
     <div className="header__city">
-      <LocationIcon />
-
       <p>Тольятти</p>
     </div>
   </div>

@@ -7,6 +7,7 @@ import { Model } from "./Model";
 import { OrderSummary } from "./OrderSummary";
 import { Breadcrumbs } from "../../components/Breadcrumbs";
 import { Header } from "../../components/Header";
+import { Additionally } from "./Additionally";
 
 const crumbs = [
   { text: "Местоположение", link: Routes.ORDER_LOCATION },
@@ -33,6 +34,9 @@ const Order = () => (
           </Route>
           <Route path={Routes.ORDER_MODEL}>
             <Model />
+          </Route>
+          <Route path={Routes.ORDER_ADDITIONALLY}>
+            <Additionally />
           </Route>
           <Redirect to={Routes.ORDER_LOCATION} />
         </Switch>

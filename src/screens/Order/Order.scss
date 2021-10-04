@@ -35,23 +35,41 @@
   }
 }
 
+@media screen and (max-width: $desktop-min) {
+  .order {
+    &__header {
+      &-wrapper {
+        // padding: 0;
+      }
+    }
+
+    &__content {
+      align-items: flex-start;
+      flex-direction: column;
+
+      &-summary {
+        border: none;
+        max-width: 100%;
+        width: 100%;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: $tablet) {
   .order {
     &__header {
       &-wrapper {
         padding: 0;
       }
+
+      &-breadcrumbs {
+        padding: 8px 16px;
+      }
     }
 
     &__content {
-      padding: 10px;
-      align-items: center;
-      flex-direction: column;
-
-      &-summary {
-        border: none;
-        max-width: 100%;
-      }
+      padding: 16px;
     }
   }
 }

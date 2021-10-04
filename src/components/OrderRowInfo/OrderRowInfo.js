@@ -1,9 +1,9 @@
 import React from "react";
 import "./OrderRowInfo.scss";
 
-const OrderRowInfo = ({ name }) => (
+const OrderRowInfo = ({ title, name }) => (
   <div className="order-row-info">
-    <p>Пункт выдачи</p>
+    <p>{title}</p>
 
     <div className="order-row-info__separator"></div>
 
