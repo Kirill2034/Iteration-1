@@ -1,20 +1,12 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./HomeContent.scss";
-import { ReactComponent as LocationIcon } from "../../../assets/icons/location.svg";
 import { Button } from "../../../components/Button";
+import { Header } from "../../../components/Header";
 
 const HomeContent = () => (
   <div className="home-content">
-    <div className="home-content__header">
-      <div className="home-content__header-logo">
-        <p>Need for drive</p>
-      </div>
-      <div className="home-content__header-city">
-        <LocationIcon />
-
-        <p>Тольятти</p>
-      </div>
-    </div>
+    <Header />
     <div className="home-content__main">
       <div className="home-content__main-title">
         <p>Каршеринг</p>
@@ -27,7 +19,9 @@ const HomeContent = () => (
       </div>
 
       <div className="home-content__main-button">
-        <Button text="Забронировать" />
+        <NavLink to="/order">
+          <Button text="Забронировать" />
+        </NavLink>
       </div>
     </div>
     <div className="home-content__footer">

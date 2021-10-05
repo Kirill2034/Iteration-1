@@ -8,34 +8,6 @@
   align-items: stretch;
   justify-content: space-between;
 
-  &__header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    &-logo {
-      color: $primary;
-
-      font-style: normal;
-      font-weight: bold;
-      font-size: 30px;
-      line-height: 35px;
-    }
-    &-city {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-
-      font-style: normal;
-      font-weight: normal;
-      font-size: 14px;
-      line-height: 16px;
-      color: $primary-dark;
-    }
-    &-city p {
-      margin-left: 10px;
-    }
-  }
-
   &__main {
     &-title {
       font-style: normal;
@@ -91,17 +63,6 @@
 @media screen and (max-width: $tablet) {
   .home-content {
     padding: 0;
-
-    &__header {
-      padding: 16px;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-
-      &-logo {
-        margin-bottom: 9px;
-      }
-    }
 
     &__main {
       &-title {
