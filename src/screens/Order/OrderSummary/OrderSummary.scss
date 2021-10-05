@@ -23,7 +23,7 @@
 
   &__summary {
     display: flex;
-    
+
     & p {
       white-space: pre-wrap;
     }
@@ -51,10 +51,6 @@
 
     &__order {
       padding-right: 20px;
-    }
-
-    &-btn {
-      padding-right: 10px;
     }
 
     & .wrapper {

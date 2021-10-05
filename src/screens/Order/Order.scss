@@ -18,12 +18,14 @@
   }
 
   &__content {
+    overflow: hidden;
     padding-left: 64px;
     flex: 1;
     display: flex;
     justify-content: space-between;
 
     &-main {
+      display: flex;
       flex: 1;
     }
 
@@ -37,6 +39,8 @@
 
 @media screen and (max-width: $desktop-min) {
   .order {
+    overflow: auto;
+    padding-bottom: 30px;
     &__header {
       &-wrapper {
         // padding: 0;
@@ -44,6 +48,8 @@
     }
 
     &__content {
+      padding-right: 64px;
+      overflow: visible;
       align-items: flex-start;
       flex-direction: column;
 
@@ -58,6 +64,8 @@
 
 @media screen and (max-width: $tablet) {
   .order {
+    padding-bottom: 0;
+    overflow: auto;
     &__header {
       &-wrapper {
         padding: 0;
@@ -69,6 +77,16 @@
     }
 
     &__content {
+      overflow: visible;
+      padding: 16px 64px;
+    }
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .order {
+    &__content {
+      overflow: auto;
       padding: 16px;
     }
   }
