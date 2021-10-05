@@ -1,0 +1,49 @@
+@import "../../styles/shared.scss";
+
+.breadcrumbs {
+  width: 100%;
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  & li {
+    margin-right: 8px;
+    padding: 0;
+    position: relative;
+    padding-right: 26px;
+
+    & .breadcrumbs__link {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 16px;
+      color: #999999;
+
+      &.active {
+        color: #0ec261;
+      }
+    }
+
+    &:not(:last-child)::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+      border: 4px solid transparent;
+      border-left: 6px solid #999;
+    }
+  }
+
+  &__triangle-icon {
+    width: 50px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media screen and (max-width: $tablet) {
+  .breadcrumbs {
+    flex-wrap: wrap;
+  }
+}
