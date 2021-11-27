@@ -1,0 +1,38 @@
+@import "../../styles/shared.scss";
+
+.radio {
+  padding-right: 16px;
+
+  & label {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #999;
+    display: flex;
+    align-items: center;
+  }
+
+  &__custom-radio {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid #999;
+    margin-right: 8px;
+    margin-bottom: 2px;
+  }
+
+  &__radio {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  &.checked &__custom-radio {
+    border: 3px solid $primary;
+  }
+
+  &.checked label {
+    color: #121212;
+  }
+}

@@ -1,5 +1,31 @@
+@import "../../../styles/shared.scss";
+
 .model {
+  display: flex;
+  flex-direction: column;
+
   &__checkbox {
     display: flex;
+    padding-top: 32px;
+    padding-bottom: 48px;
+  }
+
+  &__car-list-wrapper {
+    flex: 1;
+    overflow-y: auto;
+  }
+
+  &__car-list {
+    max-width: 738px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: $desktop-min) {
+  .modal {
+    &__car-list {
+      flex-direction: column;
+    }
   }
 }

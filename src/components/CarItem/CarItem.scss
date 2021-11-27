@@ -1,0 +1,48 @@
+@import "../../styles/shared.scss";
+
+.car-item {
+  max-width: 368px;
+  width: 100%;
+  height: 224px;
+  border: 1px solid #eee;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__title {
+    & p {
+      &:first-child {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        color: #121212;
+      }
+      &:last-child {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: #999999;
+      }
+    }
+  }
+
+  &__images {
+    text-align: right;
+  }
+
+  &:hover {
+    border: 1px solid #999;
+    cursor: pointer;
+  }
+
+  &.selected {
+    border: 1px solid $primary;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .car-item {
+    max-width: none;
+  }
+}

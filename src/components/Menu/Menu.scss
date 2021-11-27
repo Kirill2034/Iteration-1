@@ -39,11 +39,6 @@
       color: $primary-black;
       margin-top: 0;
     }
-  }
-}
-
-@media screen and (max-width: $mobile) {
-  .menu {
     &__language {
       display: none;
       &._opened {
